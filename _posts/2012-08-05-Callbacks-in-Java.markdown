@@ -98,4 +98,6 @@ Finally, program that uses routine:
 The client calls displayResource() routine, which does not know type of device.   
 displayResource() call back Objects method to perform right function.
 
+Feel free to add comments about the post.
+
 <!-- more end -->

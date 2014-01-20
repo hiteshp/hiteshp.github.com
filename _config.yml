@@ -11,6 +11,6 @@ comments:
 analytics:
     provider: google
     google:
-        tracking_id: 'A-18015420-1'
-        domain: ''
+        tracking_id: 'UA-38652154-1'
+        domain: 'hiteshp.github.io'
 
