@@ -2,3 +2,15 @@ auto: true
 markdown: rdiscount
 pygments: true
 permalink: /blog/:title
+
+comments:
+    provider: disqus
+    disqus:
+        short_name: hiteshp 
+
+analytics:
+    provider: google
+    google:
+        tracking_id: 'A-18015420-1'
+        domain: ''
+
