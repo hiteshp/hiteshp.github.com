@@ -10,7 +10,7 @@ day: 25
 published: true
 summary: Resizing encrypted volume(LUKS) on Linux
 ---
-Recently I got into a situation where i installed an application and suddenly started getting login error:   
+Recently I got into a situation where I installed an application and suddenly started getting login error:   
 
     failed to execute login command
 
