@@ -26,7 +26,7 @@ As this post nicely explains LUKS can be viewed as containers inside containers.
 
 So to get additional space recognized we have to open, enlarge and close each  of these container layers.
 
-Before running any of these commands remember to take backup of any important data. We will be deleting, creating and resizing partitions and while we do so directly modifying partition table. All done correctly there should not be any data loss but it always good knowing that there is backup available for when things do wrong unknowingly
+Before running any of these commands remember to take backup of any important data. We will be deleting, creating and resizing partitions and while we do so directly modifying partition table. All done correctly there should not be any data loss but it always good knowing that there is backup available for when things do wrong unknowingly.
 Also in this case, the additional space that I added was adjacent to existing partition on hard drive.
 
 To start off, boot into your favorite LiveCD which has lvm2 and cryptsetup.
