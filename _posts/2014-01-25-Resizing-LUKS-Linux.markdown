@@ -10,7 +10,8 @@ day: 25
 published: true
 summary: Resizing encrypted volume(LUKS) on Linux
 ---
-Recently I got into a situation where i installed an application and suddenly started getting login error:
+Recently I got into a situation where i installed an application and suddenly started getting login error:   
+
     failed to execute login command
 
 Turns out it was due to disk full. While it is trivial to add space to VM using Virtual box vboxmanage, it is another thing getting that additional space recognized by Linux when partition is encrypted
