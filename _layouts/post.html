@@ -9,7 +9,6 @@ layout: default
 	  <p>Notes on Programming</p>	  
 	  <br/>
 	  <h3>Topic buzz</h3>
-	  <p>What others are thinking. Add to the conversation</p>
 	  <p><a href="https://twitter.com/share" class="twitter-share-button" data-via="hitespatel">Tweet</a></p>
 	  <p><g:plusone size="medium"></g:plusone></p>	  
 	  
@@ -29,6 +28,9 @@ layout: default
   <div class="content"> 
 	{% include post_header.html %}
     {{ content }}		
+  
+    <br/><small>Tags: {% for tag in page.tags %} <a href="/tags/{{ tag }}" title="View posts tagged with &quot;{{ tag }}&quot;"><u>{{ tag }}</u></a>  {% if forloop.last != true %} {% endif %} {% endfor %} </small>
+
   </div>
 </div>
 

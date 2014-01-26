@@ -2,7 +2,7 @@
 comments: true
 layout: post
 title: Callbacks in Java
-category: Coding
+category: Programming
 tags: callbacks java
 year: 2012
 month: 8
