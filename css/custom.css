@@ -1,0 +1,30 @@
+/* navbar */
+.navbar-custom {
+	background-image: none;
+    background-color: #666666;
+    border-color: #E7E7E7;
+}
+
+.navbar .divider-vertical {
+  background-color: #7f7f7f;
+  border-right: 1px solid #7f7f7f;
+}
+
+.navbar .nav > li > a {
+  color: #e5f1f4;
+  font-size: 15px;
+}
+
+.navbar-fixed-top .brand {
+  color: #e5f1f4;
+  font-size: 16px;
+}
+
+.navbar-fixed-top .brand:hover {
+  text-decoration: none;
+  color: #FFFFFF;
+}
+
+.navbar-fixed-top {
+  position: absolute;
+}
