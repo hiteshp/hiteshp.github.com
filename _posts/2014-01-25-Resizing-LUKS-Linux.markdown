@@ -3,7 +3,7 @@ comments: true
 layout: post
 title: Resizing encrypted volume(LUKS) on Linux
 category: Linux
-tags: debian, wheezy, crunchbang, linux, LUKS, resize
+tags: debian wheezy linux LUKS
 year: 2014
 month: 1
 day: 25
